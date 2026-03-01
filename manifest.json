@@ -1,0 +1,40 @@
+{
+  "name": "Seize – the day",
+  "short_name": "Seize",
+  "description": "Monitoreo de hábitos con rachas, calendarios y notificaciones personalizadas.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5ead8",
+  "theme_color": "#f5ead8",
+  "lang": "es",
+  "categories": ["health", "lifestyle", "productivity"],
+  "icons": [
+    { "src": "icons/icon-72.png",           "sizes": "72x72",   "type": "image/png" },
+    { "src": "icons/icon-96.png",           "sizes": "96x96",   "type": "image/png" },
+    { "src": "icons/icon-128.png",          "sizes": "128x128", "type": "image/png" },
+    { "src": "icons/icon-144.png",          "sizes": "144x144", "type": "image/png" },
+    { "src": "icons/icon-152.png",          "sizes": "152x152", "type": "image/png" },
+    { "src": "icons/icon-192.png",          "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png",          "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Inicio",
+      "short_name": "Hoy",
+      "description": "Ver hábitos de hoy",
+      "url": "/?page=home",
+      "icons": [{ "src": "icons/icon-96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Rachas",
+      "short_name": "Rachas",
+      "description": "Ver mis rachas",
+      "url": "/?page=streaks",
+      "icons": [{ "src": "icons/icon-96.png", "sizes": "96x96" }]
+    }
+  ]
+}
